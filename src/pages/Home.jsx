@@ -5,8 +5,6 @@ import "../styles/Home.css";
 
 import Logout from "../components/Logout";
 import Tienda from "../pages/Tienda";
-// import NavBar2 from "./NavBar2";
-
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";

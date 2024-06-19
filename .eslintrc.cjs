@@ -1,4 +1,4 @@
-module.exports = {
+/* module.exports = {
   root: true,
   env: { browser: true, es2020: true },
   extends: [
@@ -18,3 +18,6 @@ module.exports = {
     ],
   },
 }
+ */
+
+/* ESTE ARCHIVO AYUDA A QUE GENERES UN CODIGO MAS LIMPIO Y ESTRICTO */

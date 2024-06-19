@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import { useContext, useState } from "react";
 import { UserContext } from "../context/UserContext";
 import { CartContext } from "../context/CartContext";
 import { Link } from "react-router-dom";
@@ -11,7 +11,6 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import logo from "../assets/logo.png";
-import axios from "axios"; // Importa Axios
 import "../components/NavBar.css";
 import instance from "../api";
 import CardProduct from "../components/CardProduct"; // Importa el componente CardProduct

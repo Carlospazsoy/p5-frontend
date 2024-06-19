@@ -1,6 +1,6 @@
-import React from "react";
+// import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "react-bootstrap";
+import PropTypes from "prop-types";
 import "./CardProduct.css";
 
 function CardProduct({ imageUrl, title, price, linkTo }) {
@@ -11,12 +11,18 @@ function CardProduct({ imageUrl, title, price, linkTo }) {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">Price: ${price}</p>
-          {/* Usar un botón como alternativa para acciones dentro de la tarjeta */}
-          {/* s */}
+          <button className="btn btn-primary">View Details</button>
         </div>
       </Link>
     </div>
   );
 }
+
+CardProduct.propTypes = {
+  imageUrl: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  linkTo: PropTypes.string.isRequired,
+};
 
 export default CardProduct;

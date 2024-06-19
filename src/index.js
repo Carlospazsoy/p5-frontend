@@ -7,7 +7,6 @@ import { BrowserRouter } from "react-router-dom";
 import UserProvider from "./context/UserContext.jsx";
 import { AddressProvider } from "./context/AddressContext.jsx";
 import { CartProvider } from "./context/CartContext.jsx";
-import CategoryContext from "./context/CategoryContext.jsx";
 
 /* #1.2  crear UserContext en carpeta context*/ /* definicion del metodo para crear un Componenente de Alto Nivel */
 

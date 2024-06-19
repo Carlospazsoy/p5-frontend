@@ -1,5 +1,5 @@
 // LoadingButton.js
-import React from 'react';
+// import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Spinner from 'react-bootstrap/Spinner';
 /* nos ahorramos tener que escribir cosas como props.loading con esta forma */

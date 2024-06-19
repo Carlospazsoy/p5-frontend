@@ -6,8 +6,6 @@ import '../styles/Login.css'
 
 // importaciones de react-bootstrap
 import Alert from 'react-bootstrap/Alert';
-import Button from 'react-bootstrap/Button';  // se dejó de usar en el archivo actual para terminar usando en el componente LoadingButton
-import Spinner from 'react-bootstrap/Spinner';// se dejó de usar en el archivo actual para terminar usando en el componente LoadingButton
 import LoadingButton from "../components/LoadingButton";
 import { Link } from "react-router-dom";
 
